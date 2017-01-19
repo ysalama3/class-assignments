@@ -1,0 +1,507 @@
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/data$ wc Marra2014_data.fasta
+  9515  13335 566026 Marra2014_data.fasta   
+
+ 1  sudo apt-get update
+    2  sudo reboot
+    3  sudo ./install_things.sh
+    4  cd /etc/apt/
+    5  ls
+    6  cd preferences.d/
+    7  ls
+    8  cd ../
+    9  ls
+   10  sudo sources.list
+   11  sudo gedit sources.list
+   12  ls
+   13  cd preferences.d/
+   14  ls
+   15  touch 01_release
+   16  sudo touch 01_release
+   17  sudo gedit 01_release 
+   18  sudo apt-get update
+   19  sudo apt-get install libgstreamer0.10-0 libgstreamer-plugins-base0.10-0.
+   20  ls
+   21  cd 
+   22  ls
+   23  cd Downloads/
+   24  ls
+   25  sudo gdebi rstudio-1.0.136-amd64.deb 
+   26  cd
+   27  apt-get install rstudio
+   28  sudo apt-get install rstudio
+   29  sudo apt-get -f install
+   30  ls
+   31  cd Downloads/
+   32  ls
+   33  sudo gdebi rstudio-1.0.136-amd64.deb 
+   34  sudo apt-get install rstudio
+   35  sudo rstudio 
+   36  cd
+   37  clear
+   38  =ls
+   39  clear
+   40  ls
+   41  cd Downloads/
+   42  ls
+   43  bash Miniconda3-latest-Linux-x86_64.sh 
+   44  df -h
+   45  cd
+   46  ls
+   47  conda update conda
+   48  exit
+   49  ls
+   50  conda update conda
+   51  ls
+   52  df -h
+   53  conda install numpy
+   54  df -h
+   55  conda install jupyter
+   56  ls
+   57  jupyter 
+   58  df -h
+   59  conda install numpy
+   60  conda install scipy
+   61  df -h
+   62  jupyter notebook
+   63  ls
+   64  clear
+   65  ls
+   66  cd Desktop/
+   67  ls
+   68  exit
+   69  cd Desktop
+   70  cd eeb-177
+   71  mkdir homework
+   72  cd homework
+   73  touch hw-1-12-2017.txt
+   74  git add homework
+   75  git init
+   76  git add homework
+   77  cd ..
+   78  git add homework
+   79  git init
+   80  git add homework
+   81  git commit -m "add homework 1-17"
+   82  git push
+   83  git remote add origin https://github.com/ysalama3/homework.git
+   84  git push -u origin master
+   85  cd homework
+   86  git add homework
+   87  git commit -m "exercise 2"
+   88  git commit
+   89  git add homework
+   90  cd ..
+   91  git add homework
+   92  git commit "hw 1 exercise 2 save changes"
+   93  git commit -m "hw 1 exercise 2 save changes"
+   94  git push
+   95  git homework
+   96  git add homework
+   97  git commit -m "hw 1 exercise 3 save changes"
+   98  git push
+   99  git add homework
+  100  git commit -m "hw 1 exercise 4 save changes"
+  101  git push
+  102  git add homework
+  103  git commit -m "hw 1 exercise 5 save changes"
+  104  git push
+  105  cd Desktop 
+  106  cd eeb-177
+  107  mkdir 01-my-favorite-animals
+  108  cd 01-my-favorite-animals
+  109  touch README.txt
+  110  git init
+  111  git add "01-my-favorite-animals"
+  112  cd ..
+  113  git add "01-my-favorite-animals"
+  114  git commit -m "my favorite animals list"
+  115  git push
+  116  cd 01-my-favorite-animals
+  117  cd ..
+  118  git remote add origin https://github.com/ysalama3/01-my-favorite-animals.git
+  119  git push -u origin master
+  120  git init
+  121  cd 01-my-favorite-animals
+  122  git add
+  123  cd ..
+  124  git add 01-my-favorite-animals
+  125  git commit -m "my favorite animal list"
+  126  git remote add origin https://github.com/ysalama3/01-my-favorite-animals.git
+  127  git push -u origin master
+  128  git push
+  129  cd 01-my-favorite-animals
+  130  git add README.txt
+  131  git commit -m "my favorite animal list"
+  132  git remote add origin https://github.com/ysalama3/01-my-favorite-animals.git
+  133  git push -u origin master
+  134  cd ..
+  135  cd 01-my-favorite-animals
+  136  mkdir picturelinks.txt
+  137  rm -rf picturelinks.txt
+  138  touch picturelinks.txt
+  139  mkdir animal pictures
+  140  rm -rf animal pictures
+  141  mkdir animalpictures
+  142  git add picturelinks.txt
+  143  git commit -m "picturelinks"
+  144  git push
+  145  git add animalpictures
+  146  git commit -m "all animal pictures"
+  147  git push
+  148  cd ..
+  149  cd eeb-177
+  150  git clone https://github.com/gauravsk/my-fav-animals.git
+  151  cd 01-my-favorite-animals
+  152  git add screenshotofclone.png
+  153  git commit -m "screenshot of gaurav clone"
+  154  git push
+  155  cd ..
+  156  cd homework
+  157  git branch
+  158  git checkout -b dummy-branch
+  159  cd ..
+  160  cd lab-work
+  161  cd exercise-1
+  162  touch dummy-file
+  163  git add touch dummy-file
+  164  git add dummy-file
+  165  git commit -m "dummy-file"
+  166  git push
+  167  git commit -m "dummy file"
+  168  cd ..
+  169  g edit
+  170  gedit
+  171  cd Desktop
+  172  cd eeb-177
+  173  cd class-assignment
+  174  cd class-assignments
+  175  git init
+  176  git add classwork-tues-1-17.txt
+  177  git commit -m "classwork 1-17"
+  178  git push
+  179  cd ..
+  180  cd CSB
+  181  pwd
+  182  ls
+  183  cd unix
+  184  ls
+  185  cd installation
+  186  ls
+  187  cd ~
+  188  cd Desktop/eeb-177/CSB/unix/installation/
+  189  cd ..
+  190  cd ~
+  191  cd Desktop/eeb-177/class-assignments/
+  192  touch badlynamedfile.txt
+  193  rm badlynamedfile.txt
+  194  touch "badly named file.txt"
+  195  cp badly\ named\ file.txt ~
+  196  ls
+  197  ls -l
+  198  ls -la
+  199  touch .config
+  200  man ls
+  201  man bash
+  202  history
+  203  history > temp.txt
+  204  ls > temp.txt
+  205  less temp.txt
+  206  ls -a >> classwork-tues-1-17.txt 
+  207  less classwork-tues-1-17.txt 
+  208  git init
+  209  git add classwork-tues-1-17.txt 
+  210  git commit -m "appended classwork assignment"
+  211  git push
+  212  cd ..
+  213  cd lab-work/
+  214  git branch
+  215  git checkout -b dummy-branch
+  216  git branch
+  217  git checkout -b dummy-branch
+  218  git branch
+  219  cd ../
+  220  ls -a
+  221  ls homework/
+  222  less homework/hw-1-12-2017.txt 
+  223  ls
+  224  ls -la
+  225  cd lab-work/
+  226  ls -la
+  227  cd ../
+  228  ls .git/
+  229  git status
+  230  git log
+  231  ls
+  232  cd my-fav-animals/
+  233  ls
+  234  ls -la
+  235  git log
+  236  cd ../
+  237  ls
+  238  cd 01-my-favorite-animals/
+  239  ls -la
+  240  git log
+  241  cd ../
+  242  ls -la
+  243  cd ~
+  244  ls
+  245  cd Desktop
+  246  cd CSB
+  247  cd eeb-177
+  248  cd CSB
+  249  ls -la
+  250  cd ..
+  251  cd my-fav-animals/
+  252  ls -la
+  253  cd ..
+  254  01-my-favorite-animals/
+  255  cd 01-my-favorite-animals/
+  256  ls -la
+  257  cd animalpictures/
+  258  ls -la
+  259  cd ..
+  260  rm -r .git
+  261  rm -rf .git
+  262  cd lab-work/
+  263  git checkout -b dummy-branch
+  264  git log
+  265  git status
+  266  ls -a
+  267  ls exercise-1/
+  268  rm -rf .git
+  269  git init
+  270  ls -a
+  271  git add README.txt
+  272  git commit -m "add README.txt"
+  273  git remote add origin https://github.com/ysalama3/lab-work.git
+  274  git push -u origin master
+  275  git push
+  276  git add exercise-1
+  277  git status
+  278  git commit -m "add exercise-1 folder"
+  279  git push
+  280  git branch
+  281  git checkout -b dummy-branch
+  282  git branch
+  283  cd exercise-1/
+  284  touch dummy-file
+  285  cd ..
+  286  git add exercise-1/
+  287  git commit -m "dummy file"
+  288  git log --decorate
+  289  cd exercise-1/
+  290  git log --decorate
+  291  git branch
+  292  touch dummy-file2
+  293  cd ..
+  294  git add exercise-1/
+  295  git commit -m "dummy file"
+  296  git push 
+  297  git push --set-upstream origin dummy-branch
+  298  git add exercise-1/
+  299  git commit -m "dummy file"
+  300  git psuh
+  301  git push
+  302  cd exercise-1/
+  303  git add dummy-file2
+  304  git commit -m "dummy file"
+  305  git push
+  306  git add dummy-file2
+  307  git commit -m "dummy file2"
+  308  git push
+  309  git log --decorate
+  310  ls
+  311  git add dummy-file2
+  312  git commit -m "dummy file 2"
+  313  git branch
+  314  ls
+  315  git checkout master
+  316  ls
+  317  git checkout dummy-branch 
+  318  git checkout master
+  319  rm dummy-file 
+  320  rm -rf dummy-file
+  321  ls
+  322  cd ..
+  323  git checkout dummy-branch 
+  324  cd exercise-1/
+  325  git pull dummy-file2
+  326  git commit "dummy file remove"
+  327  git commit -m "dummy file remove"
+  328  git push
+  329  ls
+  330  git checkout master
+  331  ls
+  332  git merge dummy-branch
+  333  ls
+  334  git rm dummy-file
+  335  git push
+  336  git rm dumy-file2
+  337  git commit -m "dummy file removal"
+  338  git push
+  339  git checkout dummy-branch 
+  340  git rm dummy-file
+  341  git commi -m "remove dummy file"
+  342  git commit -m "remove dummy file"
+  343  git push
+  344  git log
+  345  git checkout master
+  346  git rm dummy-file2 
+  347  git commit -m "remove dummy file2"
+  348  git push
+  349  git log
+  350  git revert 42bfc8a693df14504e1c730c6dcacaae16cc8076
+  351  cd Desktop
+  352  cd eeb-177
+  353  cd lab-work/
+  354  cd exercise-1/
+  355  git commit -m "reverting dummy file removal"
+  356  git push
+  357  cd ~
+  358  sudo apt-get update
+  359  sudo apt-get install gnome-screenshot
+  360  sudo reboot
+  361  cd Desktop
+  362  cd eeb-177/
+  363  cd class-assignments/
+  364  touch classwork-1-19-2017.txt
+  365  git add clas
+  366  git add classwork-1-19-2017.txt 
+  367  git commit -m "classassignments-1-19-2017"
+  368  git add classwork-1-19-2017.txt
+  369  git commit -m "classwork-1-19-2017.txt"
+  370  git init
+  371  git add classwork-1-19-2017.txt
+  372  git commit -m "classwork-1-19-2017.txt"
+  373  cd ..
+  374  git add class-assignments/
+  375  cd class-assignments/
+  376  git commit -m "classwork-1-19-2017.txt"
+  377  git init
+  378  git add classwork-1-19-2017.txt
+  379  git commit -m "classwork-1-19-2017.txt"
+  380  git status
+  381  git commit -m "classwork-1-19-2017.txt"
+  382  git rm classwork-tues-1-17.txt 
+  383  git commit -m "classwork-1-19-2017.txt"
+  384  git add classwork-1-19-2017.txt 
+  385  git commit -m "classwork-1-19-2017.txt" 
+  386  git init
+  387  git push
+  388  git add classwork-1-19-2017.txt 
+  389  git commit -m "1-19"
+  390  cd Desktop/
+  391  cd eeb-177/
+  392  cd class-assignments/
+  393  git add classwork-1-19-2017.txt 
+  394  git commit -m "1-19"
+  395  git branch --unset-upstream
+  396  git add classwork-1-19-2017.txt 
+  397  git commit -m "1-19"
+  398  touch classwork-1-19-2017.txt
+  399  git add classwork-1-19-2017.txt
+  400  git commit -m "1-19"
+  401  git push
+  402  git push --set-upstream origin master
+  403  cd ..
+  404  cd CSB/
+  405  cd unix
+  406  cd data
+  407  man touch
+  408  tpuch ~/Desktop/eeb-177/CSB/unix/sandbox/removeme.txt
+  409  touch ~/Desktop/eeb-177/CSB/unix/sandbox/removeme.txt
+  410  ls ~/Desktop/eeb-177/CSB/unix/sandbox/
+  411  cd ..
+  412  cd class-assignments/
+  413  rem -rf classwork-1-19-2017.txt 
+  414  rm -rf classwork-1-19-2017.txt 
+  415  git push
+  416  git push --set-upstream origin master
+  417  cd D
+  418  cd Desktop 
+  419  cd eeb-177/
+  420  cd class-assignments/
+  421  git init
+  422  touch classwork-1-19-2017.txt
+  423  git add classwork-1-19-2017.txt 
+  424  git commit -m "classwork-1-19"
+  425  git branch
+  426  git push
+  427  git push --set-upstream origin master
+  428  git init
+  429  git add classwork-1-19-2017.txt 
+  430  git commit -m "1-19"
+  431  cd ..
+  432  cd class-assignments/
+  433  git init
+  434  git push
+  435  git push --set-upstream origin master
+  436  git add classwork-1-19-2017.txt 
+  437  git commit -m "1-19"
+  438  rm -rf classwork-1-19-2017.txt 
+  439  touch classwork-1-19-2017.txt
+  440  git add classwork-1-19-2017.txt 
+  441  git commit -m "1-19"
+  442  git push
+  443  git push --set-upstream origin master
+  444  git pull
+  445  git pull class-assignments
+  446  cd ..
+  447  git add class-assignments/
+  448  git remote https://github.com/ysalama3/class-assignments
+  449  git remote origin https://github.com/ysalama3/class-assignments
+  450  cd class-assignments/
+  451  git remote -v origin https://github.com/ysalama3/class-assignments
+  452  git remote add https://github.com/ysalama3/class-assignments
+  453  cd Desktop
+  454  cd ee
+  455  cd eeb-177/
+  456  cd class-assignments/
+  457  git init
+  458  git add classwork-1-19-2017.txt 
+  459  git commit -m "classwork-1-19-2017.txt" 
+  460  cd ..
+  461  git add class-assignments/
+  462  cd class-assignments/
+  463  git init
+  464  git push
+  465  git push --set-upstream origin master
+  466  git push -f origin master
+  467  git add classwork-tues-1-17.txt 
+  468  git commit -m "appendedfile"
+  469  git push
+  470  git push --set-upstream origin master
+  471  cd ..
+  472  cd CSB/unix/data/
+  473  ls
+  474  head Pacifici2013_data.csv 
+  475  ls 
+  476  wc Marra2014_data.fasta
+  477  cd unix
+  478  cd ..
+  479  cd sandbox/
+  480  touch toremove.txt
+  481  ls
+  482  rm -rf toremove.txt
+  483  ls *.txt
+  484  cd ..
+  485  cd data/
+  486  less Marra2014_data.fasta 
+  487  cat Marra2014_about.txt Buzzard2015_about.txt
+  488  -n Gesquiere2011_data.csv
+  489  Gesquiere2011_data.csv
+  490  n Gesquiere2011_data.csv
+  491  sort -n Gesquiere2011_data.csv
+  492  sort -k Gesquiere2011_data.csv
+  493  sort -r Gesquiere2011_data.csv
+  494  ls > current_dir_contents.txt
+  495  cat history >> myhomework.txt
+  496  cat history >> classwork-1-19-2017.txt
+  497  cat Marra2014_about.txt Buzzard2015_about.txt
+  498  ls ~/Desktop/eeb-177/CSB/unix/sandbox/temp.txt
+  499  touch ~/Desktop/eeb-177/CSB/unix/sandbox/removeme.txt
+  500  pwd
+  501  cd ..
+  502  cd sandbox/
+  503  history
+  504  history >> ~/Desktop/eeb-177/class-assignments/classwork-1-19-2017.txt 
