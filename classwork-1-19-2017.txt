@@ -1,7 +1,7 @@
 eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/data$ wc Marra2014_data.fasta
   9515  13335 566026 Marra2014_data.fasta   
 
- 1  sudo apt-get update
+     1  sudo apt-get update
     2  sudo reboot
     3  sudo ./install_things.sh
     4  cd /etc/apt/
@@ -505,3 +505,15 @@ eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/data$ wc Marra2014_d
   502  cd sandbox/
   503  history
   504  history >> ~/Desktop/eeb-177/class-assignments/classwork-1-19-2017.txt 
+  505  cd ..
+  506  cd class-assignments/
+  507  git add classwork-1-19-2017.txt 
+  508  git commit -m "appended work 1-19"
+  509  git push
+  510  cd ..
+  511  cd CSB/unix/sandbox
+  512  touch junkfile.txt
+  513  ls
+  514  history
+  515  history >> ~/Desktop/eeb-177/class-assignments/classwork-1-19-2017.txt 
+  516  history >> ~/Desktop/eeb-177/class-assignments/classwork-1-19-2017.txt
