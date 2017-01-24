@@ -84,3 +84,63 @@ eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ find ~/Desk
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-1-19-2017.txt
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-tues-1-17.txt
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-tuesday-1-24.txt
+
+history:
+  241  gedit
+  242  cd Desktop
+  243  cd eeb-177/lab-work/exercise-2
+  244  git add regex_hw.txt 
+  245  git commit -m "lab hw for week2"
+  246  git push
+  247  cd ..
+  248  cd class-assignments/
+  249  gedit classwork-tuesday-1-24.txt
+  250  cd Desktop/eeb-177/CSB/unix/sandbox/
+  251  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  252  less cep-taxa.txt 
+  253  grep Orchidaceae
+  254  cd Desktop/eeb-177/CSB/unix/sandbox/
+  255  grep Orchidacea cep-taxa.txt 
+  256  man grep 
+  257  grep -n Orchidacea cep-taxa.txt 
+  258  grep -c Orchidacea cep-taxa.txt 
+  259  grep falcon cep-taxa.txt 
+  260  grep Falcon cep-taxa.txt 
+  261  grep -i Falcon cep-taxa.txt 
+  262  grep Macaws cep-taxa.txt 
+  263  grep Ara cep-taxa.txt 
+  264  grep -i Ara cep-taxa.txt 
+  265  grep  Ara cep-taxa.txt 
+  266  grep -i -w ara cep-taxa.txt 
+  267  grep -B 3 Cebus cep-taxa.txt 
+  268  grep -B 3 -i -w cebus cep-taxa.txt 
+  269  grep -n iguanas cep-taxa.txt 
+  270  grep -n -w iguanas cep-taxa.txt 
+  271  grep -n iguana cep-taxa.txt 
+  272  grep -n -i -w iguana cep-taxa.txt 
+  273  grep -n -v -i -w ara cep-taxa.txt 
+  274  grep -c -v -i -w ara cep-taxa.txt 
+  275  grep -n -v -i -w ara cep-taxa.txt 
+  276  find ../data/ | wc -l
+  277  find ../data/ -name "30.txt"
+  278  find /home/eeb-177-student/Desktop/eeb-177/CSB/unix/ -
+  279  find /home/eeb-177-student/Desktop/eeb-177/CSB/unix/ -iname "*about*"
+  280  find ../data/ -iname "*about*"
+  281  find ../eeb-177/ -iname "*class*"
+  282  find ~/Desktop/eeb-177/ -iname "*class*"
+  283  cd ../../..
+  284  cd class-assignments/
+  285  find ~/Desktop/eeb-177/ -iname "*class*" >> classwork-tuesday-1-24.txt 
+  286  git add classwork-tuesday-1-24.txt 
+  287  git commit -m "tues 1-24 classwork and appended work"
+  288  git push
+  289  cd ..
+  290  cd CSB/unix/sandbox/
+  291  touch permissions.txt
+  292  ls -l
+  293  chmod =rwx permissions
+  294  chmod =rwx permissions.txt 
+  295  history
+  296  cd ..
+  297  cd class-assignments/
+  298  history >>classwork-tuesday-1-24.txt 
