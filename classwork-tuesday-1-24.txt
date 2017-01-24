@@ -1,0 +1,86 @@
+
+eeb177-student@eeb177-VirtualBox:~$ cd Desktop/eeb-177/CSB/unix/sandbox/eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep Orchidacea cep-taxa.txt 
+Orchidaceae	Brachionidium	ciliolatum
+Orchidaceae	Cranichis	ricartii
+Orchidaceae	Lapanthes	eltoroensis
+Orchidaceae	Oncidium	jacquinianum
+Orchidaceae	Elleanthus	dussii
+Orchidaceae	Epidendrum	mutelianum
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ man grep 
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep -n Orchidacea cep-taxa.txt 
+47:Orchidaceae	Brachionidium	ciliolatum
+48:Orchidaceae	Cranichis	ricartii
+49:Orchidaceae	Lapanthes	eltoroensis
+50:Orchidaceae	Oncidium	jacquinianum
+356:Orchidaceae	Elleanthus	dussii
+357:Orchidaceae	Epidendrum	mutelianum
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep -c Orchidacea cep-taxa.txt 
+6
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep falcon cep-taxa.txt 
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep Falcon cep-taxa.txt 
+Falconidae	Falco		femoralis septentrionalis
+Falconidae	Falco		peregrinus
+Falconidae	Polyborus	plancus
+Falconidae	Falco		columbarius
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep -i Falcon cep-taxa.txt 
+Order:	FALCONIFORMES
+Falconidae	Falco		femoralis septentrionalis
+Falconidae	Falco		peregrinus
+Falconidae	Polyborus	plancus
+Order:	FALCONIFORMES
+Order:	FALCONIFORMES
+Order:	FALCONIFORMES
+Falconidae	Falco		columbarius
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep -i Ara cep-taxa.txt 
+Flacourtiaceae	Banaras		vanderbiltii
+Order:	CHARADRIIFORMES
+Charadriidae	Charadrius	melodus
+Psittacidae	Amazona		arausica
+Psittacidae	Ara		macao
+Dasyproctidae	Dasyprocta	guamara
+Palmae		Syagrus (= Rhyticocos)	amara
+Psittacidae	Ara		ararauna
+Psittacidae	Ara		chloroptera
+Psittacidae	Arao		manilata
+Mustelidae	Eira		barbara
+Order:	CHARADRIIFORMES
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep  Ara cep-taxa.txt 
+Psittacidae	Ara		macao
+Psittacidae	Ara		ararauna
+Psittacidae	Ara		chloroptera
+Psittacidae	Arao		manilata
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep -i -w ara cep-taxa.txt 
+Psittacidae	Ara		macao
+Psittacidae	Ara		ararauna
+Psittacidae	Ara		chloroptera
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ 
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep -B 3 Cebus cep-taxa.txt 
+Family		Genus		Species
+
+Cebidae		Alouatta	seniculus
+Cebidae		Cebus		albifrons
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep -B 3 -i -w cebus cep-taxa.txt 
+Family		Genus		Species
+
+Cebidae		Alouatta	seniculus
+Cebidae		Cebus		albifrons
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$
+
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep -n iguana cep-taxa.txt 
+425:Iguanidae	Iguana		iguana
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep -n -i -w iguana cep-taxa.txt 
+424:Iguanidae	Iguana		delicatissima
+425:Iguanidae	Iguana		iguana
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep -c -v -i -w ara cep-taxa.txt 
+594
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep -n -v -i -w ara cep-taxa.txt >> non-macaws.txt
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ find .*
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ find ../data/ -iname "*about*"
+
+appending all files in classwork:
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ find ~/Desktop/eeb-177/ -iname "*class*"
+/home/eeb177-student/Desktop/eeb-177/class-assignments
+/home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-1-19-2017.txt
+/home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-tues-1-17.txt
+/home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-tuesday-1-24.txt
