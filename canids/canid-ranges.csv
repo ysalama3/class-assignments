@@ -157,55 +157,64 @@
 "Dusicyon,"Dusicyon sechurae",0.39635000000000004,0.39635000000000004
 "Osbornodon,"Osbornodon brachypus",18.2,22.615000000000002
 "Vulpini","Vulpini",0.06885,0.06885
-"Dusicyon","Dusicyon",0.00585,1.29985
-"Urocyon","Urocyon",0.06885,11.95
-"Phlaocyon,"Phlaocyon mariae",18.2,18.2
-"Borophagus,"Borophagus orc",4.4665,7.6000000000000005
-"Protocyon,"Protocyon orcesi",0.39635000000000004,0.39635000000000004
-"Osbornodon,"Osbornodon wangi",25.615000000000002,25.615000000000002
-"Metalopex,"Metalopex macconnelli",11.95,14.1815
-"Tephrocyon,"Tephrocyon rurestris",14.1815,14.785
-"Epicyon,"Epicyon saevus",7.6000000000000005,14.785
-"Aelurodon,"Aelurodon mcgrewi",14.1815,14.785
-"Vulpes","Vulpes",0.00585,7.6000000000000005
-"Eucyon","Eucyon",3.9605,8.470500000000001
-"Phlaocyon","Phlaocyon",18.2,25.615000000000002
-"Protocyon,"Protocyon troglodytes",0.063,1.294
-"Oxetocyon,"Oxetocyon cuspidatus",32.05,32.05
-"Cormocyon","Cormocyon",28.55,28.55
-"Tomarctus,"Tomarctus hippophaga",14.1815,18.2
-"Osbornodon,"Osbornodon scitulus",18.2,18.2
-"Canis,"Canis apolloniensis",1.6845,1.6845
-"Cubacyon,"Cubacyon transversidens",1.294,1.294
-"Cynotherium","Cynotherium",0.06885,1.80585
-"Cerdocyon,"Cerdocyon thous",0.00585,0.063
-"Phlaocyon,"Phlaocyon minor",18.2,25.615000000000002
-"Aelurodon","Aelurodon",8.470500000000001,14.785
-"Aelurodon,"Aelurodon taxoides",7.6000000000000005,14.1815
-"Cormocyon,"Cormocyon copei",14.1815,28.55
-"Phlaocyon,"Phlaocyon multicuspus",22.615000000000002,22.615000000000002
-"Ectopocynus,"Ectopocynus antiquus",25.615000000000002,32.05
-"Speothos,"Speothos venaticus",0.00585,0.00585
-"Canis,"Canis mesomelas",0.00585,3.9605
-"Canis,"Canis proplatensis",1.6845,1.6845
-"Mesocyon,"Mesocyon brachyops",25.615000000000002,25.615000000000002
-"Desmocyon,"Desmocyon matthewi",18.2,18.2
-"Archaeocyon,"Archaeocyon leptodus",25.615000000000002,32.05
-"Desmocyon,"Desmocyon thomsoni",14.1815,25.615000000000002
-"Canis,"Canis cedazoensis",1.05,1.05
-"Borophagus","Borophagus",3.35,14.1815
-"Borophagus,"Borophagus secundus",7.6000000000000005,14.1815
-"Carpocyon","Carpocyon",14.1815,14.785
-"Aelurodon,"Aelurodon montanensis",14.785,14.785
-"Cuon,"Cuon alpinus",0.06885,1.29985
-"Phlaocyon,"Phlaocyon marslandensis",18.2,18.2
-"Cynarctoides,"Cynarctoides harlowi",22.615000000000002,22.615000000000002
-"Osbornodon,"Osbornodon fricki",14.785,18.2
-"Paraenhydrocyon,"Paraenhydrocyon josephi",22.615000000000002,25.615000000000002
-"Leptocyon,"Leptocyon vafer",11.95,14.785
-"Leptocyon,"Leptocyon delicatus",25.615000000000002,25.615000000000002
-"Carpocyon,"Carpocyon limosus",7.6000000000000005,7.6000000000000005
-"Eucyon,"Eucyon skinneri",11.95,11.95
-"Cynarctoides,"Cynarctoides acridens",14.785,25.615000000000002
-"Caedocyon,"Caedocyon tedfordi",25.615000000000002,25.615000000000002
+                "Canis,"Protomarctus optatus",0.06885,3.35
+"Canini","Protomarctus optatus",3.35,7.6000000000000005
+"Canis,"Protomarctus optatus",0.00585,3.35
+"Cerdocyon,"Protomarctus optatus",3.35,3.9605
+"Gobicyon","Protomarctus optatus",10.6515,12.719999999999999
+"Otarocyon,"Protomarctus optatus",33.599999999999994,33.599999999999994
+"Dusicyon,"Protomarctus optatus",0.39635000000000004,0.39635000000000004
+"Osbornodon,"Protomarctus optatus",18.2,22.615000000000002
+"Vulpini","Protomarctus optatus",0.06885,0.06885
+"Dusicyon","Protomarctus optatus",0.00585,1.29985
+"Urocyon","Protomarctus optatus",0.06885,11.95
+"Phlaocyon,"Protomarctus optatus",18.2,18.2
+"Borophagus,"Protomarctus optatus",4.4665,7.6000000000000005
+"Protocyon,"Protomarctus optatus",0.39635000000000004,0.39635000000000004
+"Osbornodon,"Protomarctus optatus",25.615000000000002,25.615000000000002
+"Metalopex,"Protomarctus optatus",11.95,14.1815
+"Tephrocyon,"Protomarctus optatus",14.1815,14.785
+"Epicyon,"Protomarctus optatus",7.6000000000000005,14.785
+"Aelurodon,"Protomarctus optatus",14.1815,14.785
+"Vulpes","Protomarctus optatus",0.00585,7.6000000000000005
+"Eucyon","Protomarctus optatus",3.9605,8.470500000000001
+"Phlaocyon","Protomarctus optatus",18.2,25.615000000000002
+"Protocyon,"Protomarctus optatus",0.063,1.294
+"Oxetocyon,"Protomarctus optatus",32.05,32.05
+"Cormocyon","Protomarctus optatus",28.55,28.55
+"Tomarctus,"Protomarctus optatus",14.1815,18.2
+"Osbornodon,"Protomarctus optatus",18.2,18.2
+"Canis,"Protomarctus optatus",1.6845,1.6845
+"Cubacyon,"Protomarctus optatus",1.294,1.294
+"Cynotherium","Protomarctus optatus",0.06885,1.80585
+"Cerdocyon,"Protomarctus optatus",0.00585,0.063
+"Phlaocyon,"Protomarctus optatus",18.2,25.615000000000002
+"Aelurodon","Protomarctus optatus",8.470500000000001,14.785
+"Aelurodon,"Protomarctus optatus",7.6000000000000005,14.1815
+"Cormocyon,"Protomarctus optatus",14.1815,28.55
+"Phlaocyon,"Protomarctus optatus",22.615000000000002,22.615000000000002
+"Ectopocynus,"Protomarctus optatus",25.615000000000002,32.05
+"Speothos,"Protomarctus optatus",0.00585,0.00585
+"Canis,"Protomarctus optatus",0.00585,3.9605
+"Canis,"Protomarctus optatus",1.6845,1.6845
+"Mesocyon,"Protomarctus optatus",25.615000000000002,25.615000000000002
+"Desmocyon,"Protomarctus optatus",18.2,18.2
+"Archaeocyon,"Protomarctus optatus",25.615000000000002,32.05
+"Desmocyon,"Protomarctus optatus",14.1815,25.615000000000002
+"Canis,"Protomarctus optatus",1.05,1.05
+"Borophagus","Protomarctus optatus",3.35,14.1815
+"Borophagus,"Protomarctus optatus",7.6000000000000005,14.1815
+"Carpocyon","Protomarctus optatus",14.1815,14.785
+"Aelurodon,"Protomarctus optatus",14.785,14.785
+"Cuon,"Protomarctus optatus",0.06885,1.29985
+"Phlaocyon,"Protomarctus optatus",18.2,18.2
+"Cynarctoides,"Protomarctus optatus",22.615000000000002,22.615000000000002
+"Osbornodon,"Protomarctus optatus",14.785,18.2
+"Paraenhydrocyon,"Protomarctus optatus",22.615000000000002,25.615000000000002
+"Leptocyon,"Protomarctus optatus",11.95,14.785
+"Leptocyon,"Protomarctus optatus",25.615000000000002,25.615000000000002
+"Carpocyon,"Protomarctus optatus",7.6000000000000005,7.6000000000000005
+"Eucyon,"Protomarctus optatus",11.95,11.95
+"Cynarctoides,"Protomarctus optatus",14.785,25.615000000000002
+"Caedocyon,"Protomarctus optatus",25.615000000000002,25.615000000000002
 "Protomarctus,"Protomarctus optatus",14.1815,18.205000000000002
