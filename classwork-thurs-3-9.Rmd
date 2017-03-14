@@ -1,0 +1,48 @@
+---
+title: "classwork-tues-3-7"
+output: md_document
+---
+
+```{r}
+library(paleobioDB)
+library(paleotree)
+
+```
+```{r}
+data(graptPBDB)
+head(graptOccPBDB)
+```
+
+```{r}
+occSpecies<-taxonSortPBDBocc(graptOccPBDB, rank="species")
+
+#plot it!
+plotOccData(occSpecies)
+```
+```{r}
+
+#this isn't too many occurrences, because there are so few
+    #formal grapt species in the PBDB
+
+#genera is messier...
+
+#get formal genera
+occGenus<-taxonSortPBDBocc(graptOccPBDB, rank="genus")
+
+#plot it!
+plotOccData(occGenus)
+```
+
+```{r}
+#taxicDivDisc with the retiolinae dataset
+data(retiolitinae)
+taxicDivDisc(retioRanges)
+```
+
+```
+
+```
+
+```
+
+```
